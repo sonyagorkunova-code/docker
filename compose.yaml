@@ -1,0 +1,15 @@
+services:
+  app:
+    build: .
+    env_file:
+      - .env
+    ports:
+      - "${APP_PORT:-8080}:8000"
+    environment:
+      - GREETING=${GREETING:-Hello from Compose}
+      - DATA_FILE=/data/counter.db
+    volumes:
+      - counter-data:/data
+
+volumes:
+  counter-data:
