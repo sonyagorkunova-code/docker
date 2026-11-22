@@ -10,7 +10,7 @@ PORT=8080
 cleanup() {
   echo "Очистка тестовых ресурсов..."
   docker compose -p $PROJECT_NAME down -v || true
-  rm -f $BACKUP_FILE || true
+  rm -rf $BACKUP_FILE || true
 }
 trap cleanup EXIT
 
