@@ -1,0 +1,115 @@
+=== ╨н╤В╨░╨┐ 1: ╨Ч╨░╨┐╤Г╤Б╨║ ╤В╨╡╤Б╤В╨╛╨▓╨╛╨│╨╛ ╨┐╤А╨╛╨╡╨║╤В╨░ ===
+ Image test_project_1795368303-app Building 
+#1 [internal] load local bake definitions
+#1 reading from stdin 535B 0.0s done
+#1 DONE 0.0s
+
+#2 [internal] load build definition from Dockerfile
+#2 transferring dockerfile: 214B done
+#2 DONE 0.0s
+
+#3 [internal] load metadata for docker.io/library/python:3.11-slim
+#3 DONE 21.6s
+
+#4 [internal] load .dockerignore
+#4 transferring context: 84B done
+#4 DONE 0.0s
+
+#5 [internal] load build context
+#5 transferring context: 94B done
+#5 DONE 0.0s
+
+#6 [1/5] FROM docker.io/library/python:3.11-slim@sha256:07d4824036af339fa1b6ef769cc99d9c10a141769538b52b3b597c84f7a7b535
+#6 resolve docker.io/library/python:3.11-slim@sha256:07d4824036af339fa1b6ef769cc99d9c10a141769538b52b3b597c84f7a7b535 0.0s done
+#6 DONE 0.1s
+
+#7 [2/5] WORKDIR /app
+#7 CACHED
+
+#8 [3/5] COPY app/requirements.txt .
+#8 CACHED
+
+#9 [4/5] RUN pip install --no-cache-dir -r requirements.txt
+#9 CACHED
+
+#10 [5/5] COPY app/app.py .
+#10 CACHED
+
+#11 exporting to image
+#11 exporting layers done
+#11 exporting manifest sha256:407711839047cb1c099b1a4c394f2603ed63d41fa41dbc5fba23ede9561de940
+#11 exporting manifest sha256:407711839047cb1c099b1a4c394f2603ed63d41fa41dbc5fba23ede9561de940 0.0s done
+#11 exporting config sha256:da10f4c7d1311c5f9847489cf297fd9a95043ab0fbfef55a513ff7fac2624c19 0.0s done
+#11 exporting attestation manifest sha256:b868fad3a2503641e294424f94b6cb4d9f23cfe294b4cfff60ee1b03cc9d09b6
+#11 exporting attestation manifest sha256:b868fad3a2503641e294424f94b6cb4d9f23cfe294b4cfff60ee1b03cc9d09b6 0.0s done
+#11 exporting manifest list sha256:a931c032ce275af4e67f97411de3ec5da5c6d801e2661806ba0af331e5abbbfa 0.0s done
+#11 naming to docker.io/library/test_project_1795368303-app:latest done
+#11 unpacking to docker.io/library/test_project_1795368303-app:latest 0.0s done
+#11 DONE 0.2s
+
+#12 resolving provenance for metadata file
+#12 DONE 0.0s
+ Image test_project_1795368303-app Built 
+ Network test_project_1795368303_default Creating 
+ Volume test_project_1795368303_redis-data Creating 
+ Volume test_project_1795368303_redis-data Creating 
+ Network test_project_1795368303_default Creating 
+ Volume test_project_1795368303_redis-data Created 
+ Volume test_project_1795368303_redis-data Created 
+ Network test_project_1795368303_default Created 
+ Network test_project_1795368303_default Created 
+ Container test_project_1795368303-redis-1 Creating 
+ Container test_project_1795368303-redis-1 Created 
+ Container test_project_1795368303-app-1 Creating 
+ Container test_project_1795368303-app-1 Created 
+ Container test_project_1795368303-redis-1 Starting 
+ Container test_project_1795368303-redis-1 Started 
+ Container test_project_1795368303-redis-1 Waiting 
+ Container test_project_1795368303-redis-1 Healthy 
+ Container test_project_1795368303-app-1 Starting 
+ Container test_project_1795368303-app-1 Started 
+=== ╨н╤В╨░╨┐ 2: ╨Ю╨╢╨╕╨┤╨░╨╜╨╕╨╡ ╨│╨╛╤В╨╛╨▓╨╜╨╛╤Б╤В╨╕ ╨┐╤А╨╕╨╗╨╛╨╢╨╡╨╜╨╕╤П ===
+╨Я╤А╨╕╨╗╨╛╨╢╨╡╨╜╨╕╨╡ ╨│╨╛╤В╨╛╨▓╨╛.
+=== ╨н╤В╨░╨┐ 3: ╨Я╤А╨╛╨▓╨╡╤А╨║╨░ ╨╕╤Б╤Е╨╛╨┤╨╜╨╛╨│╨╛ ╤Б╤З╤С╤В╤З╨╕╨║╨░ (╨┤╨╛╨╗╨╢╨╡╨╜ ╨▒╤Л╤В╤М 0) ===
+╨Ш╤Б╤Е╨╛╨┤╨╜╤Л╨╣ ╤Б╤З╤С╤В╤З╨╕╨║: 0
+=== ╨н╤В╨░╨┐ 4: ╨Т╤Л╨┐╨╛╨╗╨╜╨╡╨╜╨╕╨╡ 5 ╨╕╨╜╨║╤А╨╡╨╝╨╡╨╜╤В╨╛╨▓ ===
+╨б╤З╤С╤В╤З╨╕╨║ ╨┐╨╛╤Б╨╗╨╡ ╨╕╨╜╨║╤А╨╡╨╝╨╡╨╜╤В╨╛╨▓: 5
+=== ╨н╤В╨░╨┐ 5: ╨Я╨╡╤А╨╡╤Б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨╛╨╜╤В╨╡╨╣╨╜╨╡╤А╨░ ╨┐╤А╨╕╨╗╨╛╨╢╨╡╨╜╨╕╤П ===
+ Container test_project_1795368303-redis-1 Running 
+ Container test_project_1795368303-app-1 Recreate 
+ Container test_project_1795368303-app-1 Recreated 
+ Container test_project_1795368303-redis-1 Waiting 
+ Container test_project_1795368303-redis-1 Healthy 
+ Container test_project_1795368303-app-1 Starting 
+ Container test_project_1795368303-app-1 Started 
+╨б╤З╤С╤В╤З╨╕╨║ ╨┐╨╛╤Б╨╗╨╡ ╨┐╨╡╤А╨╡╤Б╨╛╨╖╨┤╨░╨╜╨╕╤П: 5
+=== ╨н╤В╨░╨┐ 6: ╨Я╤А╨╛╨▓╨╡╤А╨║╨░ ╨╛╤В╨║╨░╨╖╨░ Redis ===
+ Container test_project_1795368303-redis-1 Stopping 
+ Container test_project_1795368303-redis-1 Stopped 
+/readyz ╨▓╨╡╤А╨╜╤Г╨╗ 503 (╨╛╨╢╨╕╨┤╨░╨╡╨╝╨╛)
+/increment ╨▓╨╡╤А╨╜╤Г╨╗ 503 (╨╛╨╢╨╕╨┤╨░╨╡╨╝╨╛)
+=== ╨н╤В╨░╨┐ 7: ╨Т╨╛╤Б╤Б╤В╨░╨╜╨╛╨▓╨╗╨╡╨╜╨╕╨╡ Redis ===
+ Container test_project_1795368303-redis-1 Starting 
+ Container test_project_1795368303-redis-1 Started 
+╨б╤З╤С╤В╤З╨╕╨║ ╨┐╨╛╤Б╨╗╨╡ ╨▓╨╛╤Б╤Б╤В╨░╨╜╨╛╨▓╨╗╨╡╨╜╨╕╤П: 5
+=== ╨н╤В╨░╨┐ 8: ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╤А╨╡╨╖╨╡╤А╨▓╨╜╨╛╨╣ ╨║╨╛╨┐╨╕╨╕ ===
+ Container test_project_1795368303-app-1 Stopping 
+ Container test_project_1795368303-app-1 Stopped 
+ Container test_project_1795368303-redis-1 Stopping 
+ Container test_project_1795368303-redis-1 Stopped 
+docker: Error response from daemon: Conflict. The container name "/backup_container" is already in use by container "ab1a742af6f47f689c818cad0ac7df29905b083e33907706d36b8849321ad645". You have to remove (or rename) that container to be able to reuse that name.
+
+Run 'docker run --help' for more information
+╨Ю╤З╨╕╤Б╤В╨║╨░ ╤В╨╡╤Б╤В╨╛╨▓╤Л╤Е ╤А╨╡╤Б╤Г╤А╤Б╨╛╨▓...
+ Container test_project_1795368303-app-1 Stopping 
+ Container test_project_1795368303-app-1 Stopped 
+ Container test_project_1795368303-app-1 Removing 
+ Container test_project_1795368303-app-1 Removed 
+ Container test_project_1795368303-redis-1 Stopping 
+ Container test_project_1795368303-redis-1 Stopped 
+ Container test_project_1795368303-redis-1 Removing 
+ Container test_project_1795368303-redis-1 Removed 
+ Network test_project_1795368303_default Removing 
+ Volume test_project_1795368303_redis-data Removing 
+ Volume test_project_1795368303_redis-data Removed 
+ Network test_project_1795368303_default Removed 
