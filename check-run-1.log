@@ -1,15 +1,15 @@
 === ╨н╤В╨░╨┐ 1: ╨Ч╨░╨┐╤Г╤Б╨║ ╤В╨╡╤Б╤В╨╛╨▓╨╛╨│╨╛ ╨┐╤А╨╛╨╡╨║╤В╨░ ===
- Image test_project_1795369922-app Building 
+ Image test_project_1795371432-app Building 
 #1 [internal] load local bake definitions
 #1 reading from stdin 535B 0.0s done
 #1 DONE 0.0s
 
 #2 [internal] load build definition from Dockerfile
-#2 transferring dockerfile: 214B done
+#2 transferring dockerfile: 214B 0.0s done
 #2 DONE 0.0s
 
 #3 [internal] load metadata for docker.io/library/python:3.11-slim
-#3 DONE 23.4s
+#3 DONE 22.6s
 
 #4 [internal] load .dockerignore
 #4 transferring context: 84B done
@@ -37,36 +37,36 @@
 
 #11 exporting to image
 #11 exporting layers done
-#11 exporting manifest sha256:a365c8b03c08a0c8609e87100ed6f61e2f63eea7f4e205f29f6dde84143b8903 0.0s done
-#11 exporting config sha256:81e60a0d5e5b3a6023a970f92844952f1b9c49133ad4c58a8c56416628ee5478 0.1s done
-#11 exporting attestation manifest sha256:234eea2daff0a0baef90e18ac77a96d841f1eee77e608634a187a142fc0ea55b 0.1s done
-#11 exporting manifest list sha256:918ef949828c09ab7cea15adea24a56778feb451cac792a1e8994b7fea809cfa
-#11 exporting manifest list sha256:918ef949828c09ab7cea15adea24a56778feb451cac792a1e8994b7fea809cfa 0.1s done
-#11 naming to docker.io/library/test_project_1795369922-app:latest done
-#11 unpacking to docker.io/library/test_project_1795369922-app:latest 0.0s done
-#11 DONE 0.3s
+#11 exporting manifest sha256:cae8832c085b2190fd957016c974a12388d928c0c3c5f93bb3e41678fd35b84c 0.0s done
+#11 exporting config sha256:014df3c7e784e5ee6f4aea07eecfb802d63f8c51eb7db76ddf388e6d9bf796ba 0.1s done
+#11 exporting attestation manifest sha256:94ca541a25d712a1cb4e257249d320df9d54129133d3f6ee400c2216b5f61ff2 0.1s done
+#11 exporting manifest list sha256:d92c5b4c0eabd8c95f320b89c75cf5bd5d24f1d7cc4ee7a6ab7662dbc9d2a653
+#11 exporting manifest list sha256:d92c5b4c0eabd8c95f320b89c75cf5bd5d24f1d7cc4ee7a6ab7662dbc9d2a653 0.1s done
+#11 naming to docker.io/library/test_project_1795371432-app:latest done
+#11 unpacking to docker.io/library/test_project_1795371432-app:latest 0.0s done
+#11 DONE 0.4s
 
 #12 resolving provenance for metadata file
 #12 DONE 0.0s
- Image test_project_1795369922-app Built 
- Network test_project_1795369922_default Creating 
- Volume test_project_1795369922_redis-data Creating 
- Volume test_project_1795369922_redis-data Creating 
- Network test_project_1795369922_default Creating 
- Volume test_project_1795369922_redis-data Created 
- Volume test_project_1795369922_redis-data Created 
- Network test_project_1795369922_default Created 
- Network test_project_1795369922_default Created 
- Container test_project_1795369922-redis-1 Creating 
- Container test_project_1795369922-redis-1 Created 
- Container test_project_1795369922-app-1 Creating 
- Container test_project_1795369922-app-1 Created 
- Container test_project_1795369922-redis-1 Starting 
- Container test_project_1795369922-redis-1 Started 
- Container test_project_1795369922-redis-1 Waiting 
- Container test_project_1795369922-redis-1 Healthy 
- Container test_project_1795369922-app-1 Starting 
- Container test_project_1795369922-app-1 Started 
+ Image test_project_1795371432-app Built 
+ Network test_project_1795371432_default Creating 
+ Volume test_project_1795371432_redis-data Creating 
+ Volume test_project_1795371432_redis-data Creating 
+ Network test_project_1795371432_default Creating 
+ Volume test_project_1795371432_redis-data Created 
+ Volume test_project_1795371432_redis-data Created 
+ Network test_project_1795371432_default Created 
+ Network test_project_1795371432_default Created 
+ Container test_project_1795371432-redis-1 Creating 
+ Container test_project_1795371432-redis-1 Created 
+ Container test_project_1795371432-app-1 Creating 
+ Container test_project_1795371432-app-1 Created 
+ Container test_project_1795371432-redis-1 Starting 
+ Container test_project_1795371432-redis-1 Started 
+ Container test_project_1795371432-redis-1 Waiting 
+ Container test_project_1795371432-redis-1 Healthy 
+ Container test_project_1795371432-app-1 Starting 
+ Container test_project_1795371432-app-1 Started 
 === ╨н╤В╨░╨┐ 2: ╨Ю╨╢╨╕╨┤╨░╨╜╨╕╨╡ ╨│╨╛╤В╨╛╨▓╨╜╨╛╤Б╤В╨╕ ╨┐╤А╨╕╨╗╨╛╨╢╨╡╨╜╨╕╤П ===
 ╨Я╤А╨╕╨╗╨╛╨╢╨╡╨╜╨╕╨╡ ╨│╨╛╤В╨╛╨▓╨╛.
 === ╨н╤В╨░╨┐ 3: ╨Я╤А╨╛╨▓╨╡╤А╨║╨░ ╨╕╤Б╤Е╨╛╨┤╨╜╨╛╨│╨╛ ╤Б╤З╤С╤В╤З╨╕╨║╨░ (╨┤╨╛╨╗╨╢╨╡╨╜ ╨▒╤Л╤В╤М 0) ===
@@ -74,42 +74,41 @@
 === ╨н╤В╨░╨┐ 4: ╨Т╤Л╨┐╨╛╨╗╨╜╨╡╨╜╨╕╨╡ 5 ╨╕╨╜╨║╤А╨╡╨╝╨╡╨╜╤В╨╛╨▓ ===
 ╨б╤З╤С╤В╤З╨╕╨║ ╨┐╨╛╤Б╨╗╨╡ ╨╕╨╜╨║╤А╨╡╨╝╨╡╨╜╤В╨╛╨▓: 5
 === ╨н╤В╨░╨┐ 5: ╨Я╨╡╤А╨╡╤Б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨╛╨╜╤В╨╡╨╣╨╜╨╡╤А╨░ ╨┐╤А╨╕╨╗╨╛╨╢╨╡╨╜╨╕╤П ===
- Container test_project_1795369922-redis-1 Running 
- Container test_project_1795369922-app-1 Recreate 
- Container test_project_1795369922-app-1 Recreated 
- Container test_project_1795369922-redis-1 Waiting 
- Container test_project_1795369922-redis-1 Healthy 
- Container test_project_1795369922-app-1 Starting 
- Container test_project_1795369922-app-1 Started 
+ Container test_project_1795371432-redis-1 Running 
+ Container test_project_1795371432-app-1 Recreate 
+ Container test_project_1795371432-app-1 Recreated 
+ Container test_project_1795371432-redis-1 Waiting 
+ Container test_project_1795371432-redis-1 Healthy 
+ Container test_project_1795371432-app-1 Starting 
+ Container test_project_1795371432-app-1 Started 
 ╨б╤З╤С╤В╤З╨╕╨║ ╨┐╨╛╤Б╨╗╨╡ ╨┐╨╡╤А╨╡╤Б╨╛╨╖╨┤╨░╨╜╨╕╤П: 5
 === ╨н╤В╨░╨┐ 6: ╨Я╤А╨╛╨▓╨╡╤А╨║╨░ ╨╛╤В╨║╨░╨╖╨░ Redis ===
- Container test_project_1795369922-redis-1 Stopping 
- Container test_project_1795369922-redis-1 Stopped 
+ Container test_project_1795371432-redis-1 Stopping 
+ Container test_project_1795371432-redis-1 Stopped 
 /readyz ╨▓╨╡╤А╨╜╤Г╨╗ 503 (╨╛╨╢╨╕╨┤╨░╨╡╨╝╨╛)
 /increment ╨▓╨╡╤А╨╜╤Г╨╗ 503 (╨╛╨╢╨╕╨┤╨░╨╡╨╝╨╛)
 === ╨н╤В╨░╨┐ 7: ╨Т╨╛╤Б╤Б╤В╨░╨╜╨╛╨▓╨╗╨╡╨╜╨╕╨╡ Redis ===
- Container test_project_1795369922-redis-1 Starting 
- Container test_project_1795369922-redis-1 Started 
+ Container test_project_1795371432-redis-1 Starting 
+ Container test_project_1795371432-redis-1 Started 
 ╨б╤З╤С╤В╤З╨╕╨║ ╨┐╨╛╤Б╨╗╨╡ ╨▓╨╛╤Б╤Б╤В╨░╨╜╨╛╨▓╨╗╨╡╨╜╨╕╤П: 5
 === ╨н╤В╨░╨┐ 8: ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╤А╨╡╨╖╨╡╤А╨▓╨╜╨╛╨╣ ╨║╨╛╨┐╨╕╨╕ ===
- Container test_project_1795369922-app-1 Stopping 
- Container test_project_1795369922-app-1 Stopped 
- Container test_project_1795369922-redis-1 Stopping 
- Container test_project_1795369922-redis-1 Stopped 
-backup_1795369996
-╨а╨╡╨╖╨╡╤А╨▓╨╜╨░╤П ╨║╨╛╨┐╨╕╤П ╤Б╨╛╨╖╨┤╨░╨╜╨░: backup_1795369922.tar.gz
+ Container test_project_1795371432-app-1 Stopping 
+ Container test_project_1795371432-app-1 Stopped 
+ Container test_project_1795371432-redis-1 Stopping 
+ Container test_project_1795371432-redis-1 Stopped 
+backup_1795371507
+╨а╨╡╨╖╨╡╤А╨▓╨╜╨░╤П ╨║╨╛╨┐╨╕╤П ╤Б╨╛╨╖╨┤╨░╨╜╨░: backup_1795371432.tar.gz
 === ╨Т╤Б╨╡ ╨┐╤А╨╛╨▓╨╡╤А╨║╨╕ ╨┐╤А╨╛╨╣╨┤╨╡╨╜╤Л ╤Г╤Б╨┐╨╡╤И╨╜╨╛! ===
 ╨Ю╤З╨╕╤Б╤В╨║╨░ ╤В╨╡╤Б╤В╨╛╨▓╤Л╤Е ╤А╨╡╤Б╤Г╤А╤Б╨╛╨▓...
- Container test_project_1795369922-app-1 Stopping 
- Container test_project_1795369922-app-1 Stopped 
- Container test_project_1795369922-app-1 Removing 
- Container test_project_1795369922-app-1 Removed 
- Container test_project_1795369922-redis-1 Stopping 
- Container test_project_1795369922-redis-1 Stopped 
- Container test_project_1795369922-redis-1 Removing 
- Container test_project_1795369922-redis-1 Removed 
- Network test_project_1795369922_default Removing 
- Volume test_project_1795369922_redis-data Removing 
- Volume test_project_1795369922_redis-data Removed 
- Network test_project_1795369922_default Removed 
-rm: cannot remove 'backup_1795369922.tar.gz': Is a directory
+ Container test_project_1795371432-app-1 Stopping 
+ Container test_project_1795371432-app-1 Stopped 
+ Container test_project_1795371432-app-1 Removing 
+ Container test_project_1795371432-app-1 Removed 
+ Container test_project_1795371432-redis-1 Stopping 
+ Container test_project_1795371432-redis-1 Stopped 
+ Container test_project_1795371432-redis-1 Removing 
+ Container test_project_1795371432-redis-1 Removed 
+ Network test_project_1795371432_default Removing 
+ Volume test_project_1795371432_redis-data Removing 
+ Volume test_project_1795371432_redis-data Removed 
+ Network test_project_1795371432_default Removed 
