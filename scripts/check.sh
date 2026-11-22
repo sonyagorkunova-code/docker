@@ -91,7 +91,7 @@ echo "Счётчик после восстановления: $AFTER_RECOVERY"
 echo "=== Этап 8: Создание резервной копии ==="
 docker compose -p $PROJECT_NAME stop app redis
 BACKUP_CONTAINER="backup_$(date +%s)"
-docker run --name $BACKUP_CONTAINER -v ${PROJECT_NAME}_redis-data:/data alpine cp -r /data /tmp/backup_data
+MSYS_NO_PATHCONV=1 docker run --name $BACKUP_CONTAINER -v ${PROJECT_NAME}_redis-data:/data alpine cp -r /data /tmp/backup_data
 docker cp $BACKUP_CONTAINER:/tmp/backup_data ./$BACKUP_FILE
 docker rm $BACKUP_CONTAINER
 echo "Резервная копия создана: $BACKUP_FILE"

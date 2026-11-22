@@ -1,15 +1,15 @@
 === ╨н╤В╨░╨┐ 1: ╨Ч╨░╨┐╤Г╤Б╨║ ╤В╨╡╤Б╤В╨╛╨▓╨╛╨│╨╛ ╨┐╤А╨╛╨╡╨║╤В╨░ ===
- Image test_project_1795369053-app Building 
+ Image test_project_1795370044-app Building 
 #1 [internal] load local bake definitions
-#1 reading from stdin 535B 0.0s done
-#1 DONE 0.0s
+#1 reading from stdin 535B 0.1s done
+#1 DONE 0.1s
 
 #2 [internal] load build definition from Dockerfile
 #2 transferring dockerfile: 214B done
 #2 DONE 0.0s
 
 #3 [internal] load metadata for docker.io/library/python:3.11-slim
-#3 DONE 22.4s
+#3 DONE 21.6s
 
 #4 [internal] load .dockerignore
 #4 transferring context: 84B done
@@ -20,7 +20,7 @@
 #5 DONE 0.0s
 
 #6 [1/5] FROM docker.io/library/python:3.11-slim@sha256:07d4824036af339fa1b6ef769cc99d9c10a141769538b52b3b597c84f7a7b535
-#6 resolve docker.io/library/python:3.11-slim@sha256:07d4824036af339fa1b6ef769cc99d9c10a141769538b52b3b597c84f7a7b535 0.0s done
+#6 resolve docker.io/library/python:3.11-slim@sha256:07d4824036af339fa1b6ef769cc99d9c10a141769538b52b3b597c84f7a7b535 0.1s done
 #6 DONE 0.1s
 
 #7 [4/5] RUN pip install --no-cache-dir -r requirements.txt
@@ -36,38 +36,37 @@
 #10 CACHED
 
 #11 exporting to image
-#11 exporting layers
 #11 exporting layers done
-#11 exporting manifest sha256:4a7ee9b0b0268a79490804646e40801071aabb83305b544de0ee473cc9b7686a 0.0s done
-#11 exporting config sha256:43c176a20b7cf394fdc9a97c4c2fe082687022eccd29031009afe00e6416cc2b 0.0s done
-#11 exporting attestation manifest sha256:ec6a062a795d4584f6ceefcc5e9470555980f4d19d3773c0d82918943a563573
-#11 exporting attestation manifest sha256:ec6a062a795d4584f6ceefcc5e9470555980f4d19d3773c0d82918943a563573 0.0s done
-#11 exporting manifest list sha256:fab2b6dc8b30ba11b432a05fd010429c362bca2904adf405b6bfa4339efdadfb 0.0s done
-#11 naming to docker.io/library/test_project_1795369053-app:latest done
-#11 unpacking to docker.io/library/test_project_1795369053-app:latest 0.0s done
-#11 DONE 0.2s
+#11 exporting manifest sha256:4472d0442ad7acbcd74c0236c511f779b6e13075b90ce3a3b3d69a30122925a9 0.0s done
+#11 exporting config sha256:97b64b528475d437ae73a3b661d520b745ba20290915315e6c2b1fb37fa45374 0.1s done
+#11 exporting attestation manifest sha256:dc371c06d7ebb687174548eddbe9555891f3d08ede87bc79c2074985c8995208 0.1s done
+#11 exporting manifest list sha256:1bd433dce75afee671f05b04961e723e561fe4ce5a7edf06a8810e27ace5acbc
+#11 exporting manifest list sha256:1bd433dce75afee671f05b04961e723e561fe4ce5a7edf06a8810e27ace5acbc 0.0s done
+#11 naming to docker.io/library/test_project_1795370044-app:latest done
+#11 unpacking to docker.io/library/test_project_1795370044-app:latest 0.0s done
+#11 DONE 0.3s
 
 #12 resolving provenance for metadata file
 #12 DONE 0.0s
- Image test_project_1795369053-app Built 
- Network test_project_1795369053_default Creating 
- Volume test_project_1795369053_redis-data Creating 
- Network test_project_1795369053_default Creating 
- Volume test_project_1795369053_redis-data Creating 
- Volume test_project_1795369053_redis-data Created 
- Volume test_project_1795369053_redis-data Created 
- Network test_project_1795369053_default Created 
- Network test_project_1795369053_default Created 
- Container test_project_1795369053-redis-1 Creating 
- Container test_project_1795369053-redis-1 Created 
- Container test_project_1795369053-app-1 Creating 
- Container test_project_1795369053-app-1 Created 
- Container test_project_1795369053-redis-1 Starting 
- Container test_project_1795369053-redis-1 Started 
- Container test_project_1795369053-redis-1 Waiting 
- Container test_project_1795369053-redis-1 Healthy 
- Container test_project_1795369053-app-1 Starting 
- Container test_project_1795369053-app-1 Started 
+ Image test_project_1795370044-app Built 
+ Network test_project_1795370044_default Creating 
+ Volume test_project_1795370044_redis-data Creating 
+ Volume test_project_1795370044_redis-data Creating 
+ Network test_project_1795370044_default Creating 
+ Volume test_project_1795370044_redis-data Created 
+ Volume test_project_1795370044_redis-data Created 
+ Network test_project_1795370044_default Created 
+ Network test_project_1795370044_default Created 
+ Container test_project_1795370044-redis-1 Creating 
+ Container test_project_1795370044-redis-1 Created 
+ Container test_project_1795370044-app-1 Creating 
+ Container test_project_1795370044-app-1 Created 
+ Container test_project_1795370044-redis-1 Starting 
+ Container test_project_1795370044-redis-1 Started 
+ Container test_project_1795370044-redis-1 Waiting 
+ Container test_project_1795370044-redis-1 Healthy 
+ Container test_project_1795370044-app-1 Starting 
+ Container test_project_1795370044-app-1 Started 
 === ╨н╤В╨░╨┐ 2: ╨Ю╨╢╨╕╨┤╨░╨╜╨╕╨╡ ╨│╨╛╤В╨╛╨▓╨╜╨╛╤Б╤В╨╕ ╨┐╤А╨╕╨╗╨╛╨╢╨╡╨╜╨╕╤П ===
 ╨Я╤А╨╕╨╗╨╛╨╢╨╡╨╜╨╕╨╡ ╨│╨╛╤В╨╛╨▓╨╛.
 === ╨н╤В╨░╨┐ 3: ╨Я╤А╨╛╨▓╨╡╤А╨║╨░ ╨╕╤Б╤Е╨╛╨┤╨╜╨╛╨│╨╛ ╤Б╤З╤С╤В╤З╨╕╨║╨░ (╨┤╨╛╨╗╨╢╨╡╨╜ ╨▒╤Л╤В╤М 0) ===
@@ -75,39 +74,42 @@
 === ╨н╤В╨░╨┐ 4: ╨Т╤Л╨┐╨╛╨╗╨╜╨╡╨╜╨╕╨╡ 5 ╨╕╨╜╨║╤А╨╡╨╝╨╡╨╜╤В╨╛╨▓ ===
 ╨б╤З╤С╤В╤З╨╕╨║ ╨┐╨╛╤Б╨╗╨╡ ╨╕╨╜╨║╤А╨╡╨╝╨╡╨╜╤В╨╛╨▓: 5
 === ╨н╤В╨░╨┐ 5: ╨Я╨╡╤А╨╡╤Б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨╛╨╜╤В╨╡╨╣╨╜╨╡╤А╨░ ╨┐╤А╨╕╨╗╨╛╨╢╨╡╨╜╨╕╤П ===
- Container test_project_1795369053-redis-1 Running 
- Container test_project_1795369053-app-1 Recreate 
- Container test_project_1795369053-app-1 Recreated 
- Container test_project_1795369053-redis-1 Waiting 
- Container test_project_1795369053-redis-1 Healthy 
- Container test_project_1795369053-app-1 Starting 
- Container test_project_1795369053-app-1 Started 
+ Container test_project_1795370044-redis-1 Running 
+ Container test_project_1795370044-app-1 Recreate 
+ Container test_project_1795370044-app-1 Recreated 
+ Container test_project_1795370044-redis-1 Waiting 
+ Container test_project_1795370044-redis-1 Healthy 
+ Container test_project_1795370044-app-1 Starting 
+ Container test_project_1795370044-app-1 Started 
 ╨б╤З╤С╤В╤З╨╕╨║ ╨┐╨╛╤Б╨╗╨╡ ╨┐╨╡╤А╨╡╤Б╨╛╨╖╨┤╨░╨╜╨╕╤П: 5
 === ╨н╤В╨░╨┐ 6: ╨Я╤А╨╛╨▓╨╡╤А╨║╨░ ╨╛╤В╨║╨░╨╖╨░ Redis ===
- Container test_project_1795369053-redis-1 Stopping 
- Container test_project_1795369053-redis-1 Stopped 
+ Container test_project_1795370044-redis-1 Stopping 
+ Container test_project_1795370044-redis-1 Stopped 
 /readyz ╨▓╨╡╤А╨╜╤Г╨╗ 503 (╨╛╨╢╨╕╨┤╨░╨╡╨╝╨╛)
 /increment ╨▓╨╡╤А╨╜╤Г╨╗ 503 (╨╛╨╢╨╕╨┤╨░╨╡╨╝╨╛)
 === ╨н╤В╨░╨┐ 7: ╨Т╨╛╤Б╤Б╤В╨░╨╜╨╛╨▓╨╗╨╡╨╜╨╕╨╡ Redis ===
- Container test_project_1795369053-redis-1 Starting 
- Container test_project_1795369053-redis-1 Started 
+ Container test_project_1795370044-redis-1 Starting 
+ Container test_project_1795370044-redis-1 Started 
 ╨б╤З╤С╤В╤З╨╕╨║ ╨┐╨╛╤Б╨╗╨╡ ╨▓╨╛╤Б╤Б╤В╨░╨╜╨╛╨▓╨╗╨╡╨╜╨╕╤П: 5
 === ╨н╤В╨░╨┐ 8: ╨б╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╤А╨╡╨╖╨╡╤А╨▓╨╜╨╛╨╣ ╨║╨╛╨┐╨╕╨╕ ===
- Container test_project_1795369053-app-1 Stopping 
- Container test_project_1795369053-app-1 Stopped 
- Container test_project_1795369053-redis-1 Stopping 
- Container test_project_1795369053-redis-1 Stopped 
-cp: can't stat 'C:/Users/Redmi/Desktop/╨┤╨╖ ╨┐╨╕╤В╨╛╨╜/Git/data': No such file or directory
+ Container test_project_1795370044-app-1 Stopping 
+ Container test_project_1795370044-app-1 Stopped 
+ Container test_project_1795370044-redis-1 Stopping 
+ Container test_project_1795370044-redis-1 Stopped 
+backup_1795370116
+╨а╨╡╨╖╨╡╤А╨▓╨╜╨░╤П ╨║╨╛╨┐╨╕╤П ╤Б╨╛╨╖╨┤╨░╨╜╨░: backup_1795370044.tar.gz
+=== ╨Т╤Б╨╡ ╨┐╤А╨╛╨▓╨╡╤А╨║╨╕ ╨┐╤А╨╛╨╣╨┤╨╡╨╜╤Л ╤Г╤Б╨┐╨╡╤И╨╜╨╛! ===
 ╨Ю╤З╨╕╤Б╤В╨║╨░ ╤В╨╡╤Б╤В╨╛╨▓╤Л╤Е ╤А╨╡╤Б╤Г╤А╤Б╨╛╨▓...
- Container test_project_1795369053-app-1 Stopping 
- Container test_project_1795369053-app-1 Stopped 
- Container test_project_1795369053-app-1 Removing 
- Container test_project_1795369053-app-1 Removed 
- Container test_project_1795369053-redis-1 Stopping 
- Container test_project_1795369053-redis-1 Stopped 
- Container test_project_1795369053-redis-1 Removing 
- Container test_project_1795369053-redis-1 Removed 
- Volume test_project_1795369053_redis-data Removing 
- Network test_project_1795369053_default Removing 
- Volume test_project_1795369053_redis-data Resource is still in use 
- Network test_project_1795369053_default Removed 
+ Container test_project_1795370044-app-1 Stopping 
+ Container test_project_1795370044-app-1 Stopped 
+ Container test_project_1795370044-app-1 Removing 
+ Container test_project_1795370044-app-1 Removed 
+ Container test_project_1795370044-redis-1 Stopping 
+ Container test_project_1795370044-redis-1 Stopped 
+ Container test_project_1795370044-redis-1 Removing 
+ Container test_project_1795370044-redis-1 Removed 
+ Volume test_project_1795370044_redis-data Removing 
+ Network test_project_1795370044_default Removing 
+ Volume test_project_1795370044_redis-data Removed 
+ Network test_project_1795370044_default Removed 
+rm: cannot remove 'backup_1795370044.tar.gz': Is a directory
